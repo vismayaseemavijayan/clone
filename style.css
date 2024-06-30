@@ -1,0 +1,420 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-size;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.nav-container{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 10px;
+    height: 80px;
+    color:black;
+    z-index: 1;
+    background-color: transparent;
+    
+}
+
+.nav-container ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 13px;
+    margin-left: 30%;
+}
+
+.nav-container ul li{
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.nav-container ul li:hover,
+.nav-container .icons i:hover{
+    background-color:#EEEEEE ;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    margin-left: 50%;
+}
+.icons{
+    display: flex;
+    font-size: 25px;
+    gap: 10px;
+    margin-right: 5%;
+    margin-left: 28%;
+}
+
+.div1{
+    margin-top: -8%;
+    z-index: 0;
+    position: relative;
+}
+#div-img{
+    height: 900px;
+    width: 100%;
+}
+.div1-content{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    
+}
+.div1-content p{
+    font-weight: 500;
+    font-size: 20px;
+}
+#small-p{
+    font-size:15px ;
+    font-weight: 400;
+    margin-top: -10px;
+}
+#div-button{
+    position: absolute;
+    top:56% ;
+    left: 24%;
+    padding: 100px;
+    margin: 20px;
+}
+#divbutton{
+    margin: 10px;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 500;
+    width: 250px;
+}
+
+.div2-content{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    
+}
+.div2-content p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.div3-content{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    
+}
+.div3-content p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.div4-content{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    
+}
+.div4-content p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.div5-content{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    
+}
+.div5-content p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.div6-content{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    
+}
+.div6-content p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.div7-content{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    
+}
+.div7-content p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.div8-content{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    
+}
+.div8-content p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.div9-content{
+    position: absolute;
+    top: 23%;
+    left: 42%;
+    
+}
+#div-button9{
+    position: absolute;
+    top:56% ;
+    left: 33%;
+    padding: 100px;
+    margin: 20px;  
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    padding: 40px;
+    font-weight: 500;
+}
+
+#footer2-a{
+    text-decoration: none;
+    color: gainsboro;
+    padding: 8px;
+}
+
+
+
+
+@media (max-width:680px){
+    .nav-container{
+        margin-top: -10%;
+    }
+    #div-img{
+        height: 400px;
+        width: 100%;
+       
+    }
+    .div1-content{
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        
+    }
+   
+    #div-button{
+        position: absolute;
+        top:35% ;
+        left: -17%;
+        padding: 100px;
+        margin: 20px;
+    }
+    #divbutton{
+        margin: 10px;
+        font-size: 12px;
+        padding: 10px;
+        font-weight: 500;
+        width: 400px;
+    }
+    .div2-content{
+        position: absolute;
+        top: 15%;
+        left: 35%;
+        
+    }
+    .div3-content{
+        position: absolute;
+        top: 15%;
+        left: 35%;
+        
+    }
+    .div4-content{
+        position: absolute;
+        top: 15%;
+        left: 35%;
+        
+    }
+    .div6-content{
+        position: absolute;
+        top: 15%;
+        left: 25%;
+        
+    }
+    .div7-content{
+        position: absolute;
+        top: 12%;
+        left: 22%;
+        
+    }
+    .div8-content{
+        position: absolute;
+        top: 10%;
+        left: 35%;
+        
+    }
+    .div9-content{
+        position: absolute;
+        top: 15%;
+        left: 30%;
+        
+    }
+    #div-button9{
+        position: absolute;
+        top:58% ;
+        left: 5%;
+         
+        margin: 10px;
+        font-size: 12px;
+        padding: 10px;
+        font-weight: 500;
+        width: 200px;
+    }
+    
+}
+
+@media (max-width:500px){
+    #div-img{
+        height: 300px;
+        width: 100%;
+       
+    }
+    .div1-content{
+        position: absolute;
+        top: 10%;
+        left: 25%;
+        
+    }
+    .div1-content p{
+        font-weight: 500;
+        font-size: 15px;
+    }
+    #small-p{
+        font-size:10px ;
+        font-weight: 400;
+        margin-top: -10px;
+    }
+   
+    #div-button{
+        position: absolute;
+        top:25% ;
+        left: 15%;
+        padding: 50px;
+        margin: 15px;
+    }
+    #divbutton{
+        margin: 10px;
+        font-size: 12px;
+        padding: 10px;
+        font-weight: 500;
+        width: 200px;
+    }
+    .div2-content{
+        position: absolute;
+        top: 8%;
+        left: 35%;
+        
+    }
+    .div3-content{
+        position: absolute;
+        top: 8%;
+        left: 35%;
+        
+    }
+    .div4-content{
+        position: absolute;
+        top: 8%;
+        left: 35%;
+        
+    }
+    .div6-content{
+        position: absolute;
+        top: 8%;
+        left: 25%;
+        
+    }
+    .div7-content{
+        position: absolute;
+        top: 12%;
+        left: 30%;
+        
+    }
+    .div8-content{
+        position: absolute;
+        top: 10%;
+        left: 35%;
+        
+    }
+    .div9-content{
+        position: absolute;
+        top: 15%;
+        left: 35%;
+        
+    }
+    #div-button9{
+        position: absolute;
+        top:56% ;
+        left: 25%;
+         
+        margin: 10px;
+        font-size: 12px;
+        padding: 10px;
+        font-weight: 500;
+        width: 200px;
+    }
+    footer{
+        text-align: center;
+        font-size: 10px;
+        padding: 5px;
+        font-weight: 400;
+    }
+    
+    #footer2-a{
+        text-decoration: none;
+        color: gainsboro;
+        padding: 8px;
+        display: block;
+    }
+
+}
+@media(max-width:450px){
+    #div-img{
+        height: 600px;
+        width: 100%;
+       
+    }
+    #div-button{
+        position: absolute;
+        top:50% ;
+        left: -1%;
+        padding: 60px;
+        margin: 10px;
+    }
+    #divbutton{
+        margin: 10px;
+        font-size: 12px;
+        padding: 10px;
+        font-weight: 500;
+        width: 300px;
+    }
+    #div-button9{
+        position: absolute;
+        top:75% ;
+        left: 10%;
+         
+        margin: 10px;
+        font-size: 12px;
+        padding: 10px;
+        font-weight: 500;
+        width: 200px;
+    }
+    
+}
